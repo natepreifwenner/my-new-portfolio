@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Floats</title>
+    <link rel="stylesheet" type="text/css" href="floats.css">
+    <style>
+        .box-set {
+            position: relative;
+            width: 500px;
+            height: 500px;
+            background: grey;
+        }
+
+        .box {
+            background: blue;
+            height: 80px;
+            position: absolute;
+            width: 80px;
+        }
+
+        .box1 {
+            top: 50%;
+            background: red;
+            z-index: 100;
+        }
+
+
+        .box2 {
+            width: 75%;
+            height: 75%;
+            background: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box-set">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+    </div>
+</body>
+
+</html>
